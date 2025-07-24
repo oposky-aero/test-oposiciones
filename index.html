@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Oposiciones Aeronáuticos - Prepárate para el éxito</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Un gris claro para el fondo */
+        }
+        .primary-blue {
+            background-color: #0779bf; /* Tu azul principal */
+        }
+        .text-primary-blue {
+            color: #0779bf;
+        }
+        /* Las clases btn-primary y btn-secondary ya no se usan directamente en los botones de descarga de la tienda */
+        .feature-item {
+            @apply flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-lg; /* Added background and shadow for emphasis */
+        }
+        /* No more .feature-icon as icons are removed */
+        /* Estilos para los badges de descarga */
+        .app-store-badge {
+            height: 60px; /* Altura fija para el badge de App Store */
+            width: auto; /* Ancho automático para mantener la proporción */
+        }
+        .google-play-badge {
+            height: 60px; /* Altura fija para el badge de Google Play */
+            width: auto; /* Ancho automático para mantener la proporción */
+        }
+        /* Ajustes para la responsividad de los badges en pantallas pequeñas */
+        @media (max-width: 640px) {
+            .app-store-badge, .google-play-badge {
+                height: 50px; /* Ligeramente más pequeños en móvil */
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Hero Section -->
+    <section class="primary-blue text-white py-16 md:py-24 text-center">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 rounded-lg">
+                ¡Prepárate para el Éxito en las Oposiciones Aeronáuticas!
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 opacity-90 rounded-lg">
+                La aplicación definitiva para ingenieros aeronáuticos y técnicos que buscan aprobar su examen.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <!-- Botón de Google Play -->
+                <a href="https://play.google.com/store/apps/details?id=com.yourcompany.yourapp" target="_blank" class="inline-block rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://cdn.shopify.com/b/shopify-brochure2-assets/df189245424bb261a0fc6a15b6269749.svg" alt="" class="google-play-badge">
+                </a>
+                <!-- Botón de App Store -->
+                <a href="https://apps.apple.com/us/app/your-app-id" target="_blank" class="inline-block rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Download_on_the_App_Store_Badge_ESMX_RGB_blk.svg" alt="" class="app-store-badge">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section - Redesigned without icons -->
+    <section class="py-16 md:py-20 bg-gray-100">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">¿Qué te Ofrecemos?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8"> <!-- Adjusted gap for better spacing -->
+
+                <!-- Feature 1: Contenido de Estudio Actualizado -->
+                <div class="feature-item">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-900">Contenido de Estudio Actualizado</h3>
+                    <p class="text-gray-600">Accede a un temario exhaustivo y siempre al día, diseñado para cubrir cada detalle de tu oposición, asegurando que nunca te quedes atrás.</p>
+                </div>
+
+                <!-- Feature 2: Simulacros de Examen Realistas -->
+                <div class="feature-item">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-900">Simulacros de Examen Realistas</h3>
+                    <p class="text-gray-600">Enfréntate a pruebas idénticas a los exámenes oficiales (IA e ITA) para dominar el formato, la gestión del tiempo y reducir el estrés el día clave.</p>
+                </div>
+
+                <!-- Feature 3: Análisis de Rendimiento Personalizado -->
+                <div class="feature-item">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-900">Análisis de Rendimiento Personalizado</h3>
+                    <p class="text-gray-600">Obtén estadísticas detalladas de aciertos, errores y tiempo para identificar tus puntos fuertes y débiles, y optimizar tu estrategia de estudio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="primary-blue text-white py-16 md:py-20 text-center">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">¿Listo para Empezar?</h2>
+            <p class="text-xl mb-10 opacity-90">
+                Descarga la app hoy mismo y da el primer paso hacia tu futuro en la aeronáutica.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <!-- Botón de Google Play (repetido) -->
+                <a href="https://play.google.com/store/apps/details?id=com.yourcompany.yourapp" target="_blank" class="inline-block rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://cdn.shopify.com/b/shopify-brochure2-assets/df189245424bb261a0fc6a15b6269749.svg" alt="" class="google-play-badge">
+                </a>
+                <!-- Botón de App Store (repetido) -->
+                <a href="https://apps.apple.com/us/app/your-app-id" target="_blank" class="inline-block rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Download_on_the_App_Store_Badge_ESMX_RGB_blk.svg" alt="" class="app-store-badge">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p class="mb-2">&copy; 2023 Test Oposiciones Aeronáuticos. Todos los derechos reservados.</p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                <p>Contacto: <a href="mailto:oposkypreparadores@gmail.com" class="text-blue-400 hover:underline">oposkypreparadores@gmail.com</a></p>
+                <p class="hidden sm:block">|</p> <!-- Separador para desktop -->
+                <p><a href="privacy_policy.html" target="_blank" class="text-blue-400 hover:underline">Política de Privacidad</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
